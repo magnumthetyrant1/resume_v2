@@ -1,0 +1,2 @@
+exports.ids=[4],exports.modules={22:function(t,e,n){"use strict";n.r(e);var c=n(1),component=Object(c.a)({},function(){var t=this.$createElement;return(this._self._c||t)("section",{staticClass:"section is-medium"},[this._ssrNode('<div class="container has-text-centered"><h1 class="title">My Projects</h1> <p>\n      Some of my projects can be found on <a href="https://github.com/ammezie" target="_blank">GitHub</a>.\n    </p></div>')])},[],!1,null,null,"a0513404");e.default=component.exports}};
+//# sourceMappingURL=8505f074e9ea7023baa5.js.map

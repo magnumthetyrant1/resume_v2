@@ -6,10 +6,18 @@
   "scripts": {
     "test": "ava",
     "dev": "nuxt",
-    "build": "nuxt build"
+    "build": "nuxt build",
+    "generate": "nuxt generate"
   },
   "ava": {
-    "require": []
+    "require": [
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -17,6 +25,8 @@
   "devDependencies": {
     "@nuxt/typescript": "^2.4.5",
     "ava": "^1.3.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "eslint": "^5.15.1",
     "jsdom": "^14.0.0",
     "prettier": "1.16.4"

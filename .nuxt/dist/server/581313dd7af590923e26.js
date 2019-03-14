@@ -1,0 +1,2 @@
+exports.ids=[3],exports.modules={21:function(e,t,n){"use strict";n.r(t);var r=n(1),component=Object(r.a)({},function(){var e=this.$createElement;return(this._self._c||e)("section",{staticClass:"section is-large"},[this._ssrNode('<div class="container has-text-centered"><h1 class="title">Hi, I\'m Chimezie Enyinnaya</h1> <h2 class="subtitle">a Software Developer based in Lagos, Nigeria.</h2></div>')])},[],!1,null,null,"20a0bc04");t.default=component.exports}};
+//# sourceMappingURL=581313dd7af590923e26.js.map
