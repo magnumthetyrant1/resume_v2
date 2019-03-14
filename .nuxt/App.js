@@ -7,7 +7,7 @@ import _f245f8ba from '../layouts/resume.vue'
 const layouts = { "_default": _6f6c098b,"_resume": _f245f8ba }
 
 export default {
-  head: {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Max-Andre Zils | Scrum Master"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":".\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fbulma\u002F0.6.0\u002Fcss\u002Fbulma.min.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto"}],"noscript":[{"innerHTML":"This website requires JavaScript in order to run. Please enable it in your browser."}],"style":[],"script":[]},
+  head: {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Max-Andre Zils | Scrum Master"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":".\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fbulma\u002F0.6.0\u002Fcss\u002Fbulma.min.css"},{"rel":"stylessheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.3.1\u002Fjs\u002Fall.js"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto"}],"noscript":[{"innerHTML":"This website requires JavaScript in order to run. Please enable it in your browser."}],"style":[],"script":[]},
 
   render(h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
@@ -100,6 +100,8 @@ export default {
     },
 
     setLayout(layout) {
+      if(layout && typeof layout !== 'string') throw new Error('[nuxt] Avoid using non-string value as layout property.')
+
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }

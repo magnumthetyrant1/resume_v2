@@ -1,2 +1,0 @@
-exports.ids=[2],exports.modules={24:function(t,e,n){"use strict";n.r(e);var c=n(1),component=Object(c.a)({},function(){var t=this.$createElement;return(this._self._c||t)("section",{staticClass:"section is-medium"},[this._ssrNode('<div class="container has-text-centered"><h1 class="title">Contact Me</h1> <p>\n      You can follow me on Twitter: <a href="https://twitter.com/ammezie" target="_blank">@ammezie</a></p></div>')])},[],!1,null,null,"98c09d68");e.default=component.exports}};
-//# sourceMappingURL=907cd2d8ca5eb744d90e.js.map
